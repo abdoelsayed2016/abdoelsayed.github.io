@@ -7,3 +7,8 @@ function toggleBibtex(id) {
       x.style.display = "none";
     }
   }
+
+
+  $(document).ready(function(){
+    $('.toast').toast('show');
+  });
