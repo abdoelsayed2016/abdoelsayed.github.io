@@ -60,3 +60,20 @@ a:hover {
 .card-highlight {
     animation: glow 2s ease-in-out infinite;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .column {
+    flex: 1; /* Each column takes up equal space */
+    margin: 10px; /* Adds some space between the columns */
+  }
+  .column ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+  }
+  .column h2 {
+    text-align: center; /* Centers the column headers */
+  }
