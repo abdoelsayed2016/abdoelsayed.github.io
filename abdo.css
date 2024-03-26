@@ -30,3 +30,23 @@ a:hover {
 .grey-back {
 	background-color: #eee;
 }
+
+.news-block {
+    background-color: #eee; /* Bright red background */
+    color: black; /* White text for contrast */
+    padding: 15px; /* Some padding around the content */
+    margin-bottom: 20px; /* Space between the news block and the next section */
+}
+
+.news-block h2 {
+    margin-top: 0; /* Remove the top margin of the h2 for better spacing */
+}
+
+.news-block ul {
+    list-style-type: none; /* Remove the default list bullet */
+    padding: 0; /* Remove the default padding */
+}
+
+.news-block ul li {
+    margin-bottom: 10px; /* Space between news items */
+}
