@@ -61,9 +61,9 @@
 							<li><b>🗓️ December 2024:</b>One papers accepted at <a href="https://aclanthology.org/2025.coling-main.319/"> <i>Coling 2025</i> </a>.</li>
 							<li><b>🗓️ October 2024:</b>One papers accepted at <a href="https://link.springer.com/chapter/10.1007/978-3-031-72378-0_11"><i>MICCAI 2024</i></a>.</li>
 							<li><b>🗓️ September 2024:</b> Our survey paper accepted at <i>Artificial Intelligence Review</i>.</li>
-							<li><b>🗓️ September 2024:</b> Two papers accepted at <i>EMNLP 2024 Findings</i>.</li>
+							<li><b>🗓️ September 2024:</b> Two papers accepted at <i>EMNLP 2024 Findings</i>. <a href="https://aclanthology.org/2024.findings-emnlp.562/"> First Paper</a> and, <a href="https://aclanthology.org/2024.findings-emnlp.546/" > Second Paper</a> </li>
 							<li><b>🗓️ April 2024:</b> Our survey paper accepted at <i>ACM Computing Surveys</i>.</li>
-							<li><b>🗓️ March 2024:</b> One paper accepted at <i>SIGIR 2024</i>.</li>
+							<li><b>🗓️ March 2024:</b> One paper accepted at <i><a href="https://doi.org/10.1145/3626772.3657889">SIGIR 2024</i></a>.</li>
 							<!-- <li><b>🗓️ February 2024:</b> Survey paper published at <i>ArXiv</i>.</li> -->
 						</ul>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close" style="color: white;">
@@ -257,12 +257,25 @@
 						<a href="#" onclick="javascript:toggleBibtex('piryani2024detecting'); return false;" title="Show/Hide Bibtex">Bibtex</a>
 					<p>
 						<div id="piryani2024detecting" style="display:none;">
-							<code style="white-space: pre-line;">@article{piryani2024detecting,
-								title={Detecting Temporal Ambiguity in Questions},
-								author={Piryani, Bhawna and Abdallah, Abdelrahman and Mozafari, Jamshid and Jatowt, Adam},
-								journal={arXiv preprint arXiv:2409.17046},
-								year={2024}
-							  }</code>
+							<code style="white-space: pre-line;">@inproceedings{piryani-etal-2024-detecting,
+								title = "Detecting Temporal Ambiguity in Questions",
+								author = "Piryani, Bhawna  and
+								  Abdallah, Abdelrahman  and
+								  Mozafari, Jamshid  and
+								  Jatowt, Adam",
+								editor = "Al-Onaizan, Yaser  and
+								  Bansal, Mohit  and
+								  Chen, Yun-Nung",
+								booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+								month = nov,
+								year = "2024",
+								address = "Miami, Florida, USA",
+								publisher = "Association for Computational Linguistics",
+								url = "https://aclanthology.org/2024.findings-emnlp.562/",
+								doi = "10.18653/v1/2024.findings-emnlp.562",
+								pages = "9620--9634",
+								abstract = "Detecting and answering ambiguous questions has been a challenging task in open-domain question answering. Ambiguous questions have different answers depending on their interpretation and can take diverse forms. Temporally ambiguous questions are one of the most common types of such questions. In this paper, we introduce TEMPAMBIQA, a manually annotated temporally ambiguous QA dataset consisting of 8,162 open-domain questions derived from existing datasets. Our annotations focus on capturing temporal ambiguity to study the task of detecting temporally ambiguous questions. We propose a novel approach by using diverse search strategies based on disambiguate versions of the questions. We also introduce and test non-search, competitive baselines for detecting temporal ambiguity using zero-shot and few-shot approaches."
+							}</code>
 					</div>
 
 			<li>		<p>
@@ -275,12 +288,25 @@
 						<a href="#" onclick="javascript:toggleBibtex('mozafari2024exploring'); return false;" title="Show/Hide Bibtex">Bibtex</a>
 					<p>
 						<div id="mozafari2024exploring" style="display:none;">
-							<code style="white-space: pre-line;">@article{mozafari2024exploring,
-								title={Exploring Hint Generation Approaches in Open-Domain Question Answering},
-								author={Mozafari, Jamshid and Abdallah, Abdelrahman and Piryani, Bhawna and Jatowt, Adam},
-								journal={arXiv preprint arXiv:2409.16096},
-								year={2024}
-							  }</code>
+							<code style="white-space: pre-line;">@inproceedings{mozafari-etal-2024-exploring,
+								title = "Exploring Hint Generation Approaches for Open-Domain Question Answering",
+								author = "Mozafari, Jamshid  and
+								  Abdallah, Abdelrahman  and
+								  Piryani, Bhawna  and
+								  Jatowt, Adam",
+								editor = "Al-Onaizan, Yaser  and
+								  Bansal, Mohit  and
+								  Chen, Yun-Nung",
+								booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+								month = nov,
+								year = "2024",
+								address = "Miami, Florida, USA",
+								publisher = "Association for Computational Linguistics",
+								url = "https://aclanthology.org/2024.findings-emnlp.546/",
+								doi = "10.18653/v1/2024.findings-emnlp.546",
+								pages = "9327--9352",
+								abstract = "Automatic Question Answering (QA) systems rely on contextual information to provide accurate answers. Commonly, contexts are prepared through either retrieval-based or generation-based methods. The former involves retrieving relevant documents from a corpus like Wikipedia, whereas the latter uses generative models such as Large Language Models (LLMs) to generate the context. In this paper, we introduce a novel context preparation approach called HINTQA, which employs Automatic Hint Generation (HG) techniques. Unlike traditional methods, HINTQA prompts LLMs to produce hints about potential answers for the question rather than generating relevant context. We evaluate our approach across three QA datasets including TriviaQA, Natural Questions, and Web Questions, examining how the number and order of hints impact performance. Our findings show that the HINTQA surpasses both retrieval-based and generation-based approaches. We demonstrate that hints enhance the accuracy of answers more than retrieved and generated contexts."
+							}</code>
 					</div>
 
 			<li>		<p>
